@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dgvData = new System.Windows.Forms.DataGridView();
@@ -38,15 +37,13 @@
             this.tbNama = new System.Windows.Forms.TextBox();
             this.tbDep = new System.Windows.Forms.ComboBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 105);
+            this.label1.Location = new System.Drawing.Point(33, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(91, 13);
             this.label1.TabIndex = 0;
@@ -55,7 +52,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 153);
+            this.label2.Location = new System.Drawing.Point(33, 101);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(86, 13);
             this.label2.TabIndex = 1;
@@ -102,7 +99,7 @@
             // 
             // tbNama
             // 
-            this.tbNama.Location = new System.Drawing.Point(131, 103);
+            this.tbNama.Location = new System.Drawing.Point(131, 51);
             this.tbNama.Name = "tbNama";
             this.tbNama.Size = new System.Drawing.Size(283, 20);
             this.tbNama.TabIndex = 6;
@@ -110,7 +107,7 @@
             // tbDep
             // 
             this.tbDep.FormattingEnabled = true;
-            this.tbDep.Location = new System.Drawing.Point(131, 151);
+            this.tbDep.Location = new System.Drawing.Point(131, 99);
             this.tbDep.Name = "tbDep";
             this.tbDep.Size = new System.Drawing.Size(283, 21);
             this.tbDep.TabIndex = 7;
@@ -125,21 +122,11 @@
             this.richTextBox1.Text = "ID Departemen :\n\nHR : HR\nENG : Engineer\nDEV : Developer\nPM : Product M\nFIN : Fina" +
     "nce";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(36, 22);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.tbDep);
             this.Controls.Add(this.tbNama);
@@ -153,7 +140,6 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -170,7 +156,6 @@
         private System.Windows.Forms.TextBox tbNama;
         private System.Windows.Forms.ComboBox tbDep;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
