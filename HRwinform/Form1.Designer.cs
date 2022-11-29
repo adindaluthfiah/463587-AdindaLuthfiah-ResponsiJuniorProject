@@ -107,6 +107,12 @@
             // tbDep
             // 
             this.tbDep.FormattingEnabled = true;
+            this.tbDep.Items.AddRange(new object[] {
+            "HR",
+            "ENG",
+            "DEV",
+            "PM",
+            "FIN"});
             this.tbDep.Location = new System.Drawing.Point(131, 99);
             this.tbDep.Name = "tbDep";
             this.tbDep.Size = new System.Drawing.Size(283, 21);
